@@ -4325,3 +4325,18 @@ p > object:only-child {
 		padding: 0;
 	}
 }
+
+/* bb_ 워드프레스 내용 CSS 수정 */
+.entry-content {
+	color: black;
+	font-family: 돋움;
+	font-size: 12px;
+	word-break: break-all;
+}
+
+/* bb_ 워드프레스 내용의 P태그 CSS 수정 */
+.entry-content p {
+	margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1.5 !important;
+}
