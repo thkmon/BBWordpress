@@ -437,6 +437,10 @@ function _wptexturize_pushpop_element( $text, &$stack, $disabled_elements ) {
  * @return string Text which has been converted into correct paragraph tags.
  */
 function wpautop( $pee, $br = true ) {
+	
+	// bb_ 워드프레스 글에서 br 태그 사라지는 현상 수정
+	return $pee;
+	
 	$pre_tags = array();
 
 	if ( trim($pee) === '' )
