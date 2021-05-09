@@ -470,14 +470,14 @@ h4 {
 	color: #333;
 	font-size: 16px;
 	font-size: 1rem;
-	font-weight: 800;
+	font-weight: 608;
 }
 
 h5 {
 	color: #767676;
 	font-size: 13px;
 	font-size: 0.8125rem;
-	font-weight: 800;
+	font-weight: 608;
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
 }
@@ -486,7 +486,7 @@ h6 {
 	color: #333;
 	font-size: 15px;
 	font-size: 0.9375rem;
-	font-weight: 800;
+	font-weight: 608;
 }
 
 p {
@@ -919,7 +919,7 @@ html[lang="th"] * {
 label {
 	color: #333;
 	display: block;
-	font-weight: 800;
+	font-weight: 608;
 	margin-bottom: 0.5em;
 }
 
@@ -1006,7 +1006,7 @@ input[type="submit"] {
 	display: inline-block;
 	font-size: 14px;
 	font-size: 0.875rem;
-	font-weight: 800;
+	font-weight: 608;
 	line-height: 1;
 	padding: 1em 2em;
 	text-shadow: none;
@@ -1323,7 +1323,7 @@ a:hover .nav-title,
 }
 
 .navigation-top .wrap {
-	max-width: 1000px;
+	max-width: 1300px;
 	padding: 0;
 }
 
@@ -1418,7 +1418,7 @@ a:hover .nav-title,
 	display: none;
 	font-size: 14px;
 	font-size: 0.875rem;
-	font-weight: 800;
+	font-weight: 608;
 	line-height: 1.5;
 	margin: 1px auto 2px;
 	padding: 1em;
@@ -1581,7 +1581,7 @@ body {
 	clear: none;
 	font-size: 24px;
 	font-size: 1.5rem;
-	font-weight: 800;
+	font-weight: 608;
 	line-height: 1.25;
 	letter-spacing: 0.08em;
 	margin: 0;
@@ -1904,7 +1904,7 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 	color: #222;
 	font-size: 14px;
 	font-size: 0.875rem;
-	font-weight: 800;
+	font-weight: 608;
 	letter-spacing: 0.14em;
 	text-transform: uppercase;
 }
@@ -1927,7 +1927,7 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 	color: #767676;
 	font-size: 11px;
 	font-size: 0.6875rem;
-	font-weight: 800;
+	font-weight: 608;
 	letter-spacing: 0.1818em;
 	padding-bottom: 0.25em;
 	text-transform: uppercase;
@@ -1952,7 +1952,7 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 	border-top: 1px solid #eee;
 	font-size: 14px;
 	font-size: 0.875rem;
-	font-weight: 800;
+	font-weight: 608;
 	padding: 2em 0 3em;
 	text-align: center;
 }
@@ -2104,7 +2104,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .page-links {
 	font-size: 14px;
 	font-size: 0.875rem;
-	font-weight: 800;
+	font-weight: 608;
 	padding: 2em 0 3em;
 }
 
@@ -2136,7 +2136,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 	display: block;
 	font-size: 11px;
 	font-size: 0.6875rem;
-	font-weight: 800;
+	font-weight: 608;
 	letter-spacing: 0.1818em;
 	padding-left: 2.5em;
 	position: relative;
@@ -2175,7 +2175,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 	display: inline-block;
 	font-size: 14px;
 	font-size: 0.875rem;
-	font-weight: 800;
+	font-weight: 608;
 	margin-top: 2em;
 	padding: 0.7em 2em;
 	-webkit-transition: background-color 0.2s ease-in-out;
@@ -2221,7 +2221,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 /* Post Navigation */
 
 .post-navigation {
-	font-weight: 800;
+	font-weight: 608;
 	margin: 3em 0;
 }
 
@@ -2443,7 +2443,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 	color: #767676;
 	font-size: 10px;
 	font-size: 0.625rem;
-	font-weight: 800;
+	font-weight: 608;
 	letter-spacing: 0.1818em;
 	text-transform: uppercase;
 }
@@ -2465,7 +2465,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 }
 
 .comment-reply-link {
-	font-weight: 800;
+	font-weight: 608;
 	position: relative;
 }
 
@@ -2529,7 +2529,7 @@ h2.widget-title {
 	color: #222;
 	font-size: 13px;
 	font-size: 0.8125rem;
-	font-weight: 800;
+	font-weight: 608;
 	letter-spacing: 0.1818em;
 	margin-bottom: 1.5em;
 	text-transform: uppercase;
@@ -2688,7 +2688,7 @@ h2.widget-title {
 	font-size: 10px;
 	font-size: 0.625rem;
 	font-style: normal;
-	font-weight: 800;
+	font-weight: 608;
 	letter-spacing: 0.18em;
 	line-height: 1.5;
 	text-transform: uppercase;
@@ -2990,7 +2990,7 @@ p > object:only-child {
 .site-content .wp-playlist-current-item .wp-playlist-item-artist {
 	font-size: 10px;
 	font-size: 0.625rem;
-	font-weight: 800;
+	font-weight: 608;
 	letter-spacing: 0.1818em;
 	text-transform: uppercase;
 }
@@ -3369,20 +3369,20 @@ p > object:only-child {
 	/* Layout */
 
 	.wrap {
-		max-width: 1000px;
+		max-width: 1300px;
 		padding-left: 3em;
 		padding-right: 3em;
 	}
 
 	.has-sidebar:not(.error404) #primary {
 		float: left;
-		width: 58%;
+		width: 68%
 	}
 
 	.has-sidebar #secondary {
 		float: right;
 		padding-top: 0;
-		width: 36%;
+		width: 26%;
 	}
 
 	.error404 #primary {
@@ -3478,7 +3478,7 @@ p > object:only-child {
 	}
 
 	.navigation-top .wrap {
-		max-width: 1000px;
+		max-width: 1300px;
 		/* The font size is 14px here and we need 50px padding in ems */
 		padding: 0.75em 3.4166666666667em;
 	}
@@ -3759,12 +3759,12 @@ p > object:only-child {
 
 	.page-two-column .panel-content .entry-header {
 		float: left;
-		width: 36%;
+		width: 26%;
 	}
 
 	.page-two-column .panel-content .entry-content {
 		float: right;
-		width: 58%;
+		width: 68%
 	}
 
 	/* Front Page - Recent Posts */
@@ -3772,7 +3772,7 @@ p > object:only-child {
 	.page-two-column .panel-content .recent-posts {
 		clear: right;
 		float: right;
-		width: 58%;
+		width: 68%
 	}
 
 	.panel-content .recent-posts article {
@@ -3843,7 +3843,7 @@ p > object:only-child {
 	body.page-two-column:not(.archive) #primary .entry-header,
 	body.page-two-column.archive:not(.has-sidebar) #primary .page-header {
 		float: left;
-		width: 36%;
+		width: 26%;
 	}
 
 	.blog:not(.has-sidebar) #primary article,
@@ -3854,7 +3854,7 @@ p > object:only-child {
 	body.page-two-column:not(.archive) #primary .entry-content,
 	body.page-two-column #comments {
 		float: right;
-		width: 58%;
+		width: 68%
 	}
 
 	.blog .site-main > article,
@@ -3866,7 +3866,7 @@ p > object:only-child {
 	.navigation.pagination {
 		clear: both;
 		float: right;
-		width: 58%;
+		width: 68%
 	}
 
 	.has-sidebar .navigation.pagination,
@@ -3943,7 +3943,7 @@ p > object:only-child {
 	.archive:not(.has-sidebar) .entry-content blockquote.alignright,
 	.page-two-column .entry-content blockquote.alignright {
 		margin-right: 0;
-		width: 36%;
+		width: 26%;
 	}
 
 	/* Post formats */
@@ -4031,25 +4031,25 @@ p > object:only-child {
 
 	.site-footer .widget-column.footer-widget-1 {
 		float: left;
-		width: 36%;
+		width: 26%;
 	}
 
 	.site-footer .widget-column.footer-widget-2 {
 		float: right;
-		width: 58%;
+		width: 68%
 	}
 
 	.social-navigation {
 		clear: left;
 		float: left;
 		margin-bottom: 0;
-		width: 36%;
+		width: 26%;
 	}
 
 	.site-info {
 		float: left;
 		padding: 0.7em 0 0;
-		width: 58%;
+		width: 68%
 	}
 
 	.social-navigation + .site-info {
@@ -4329,8 +4329,6 @@ p > object:only-child {
 /* bb_ 워드프레스 내용 CSS 수정 */
 .entry-content {
 	color: black;
-	font-family: 돋움;
-	font-size: 12px;
 	word-break: break-all;
 }
 
@@ -4339,4 +4337,15 @@ p > object:only-child {
 	margin: 0 !important;
     padding: 0 !important;
     line-height: 1.5 !important;
+}
+
+/* bb_ 워드프레스 폰트 수정 */
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* bb_ 워드프레스 본문 내의 테이블 폰트 수정 */
+.entry-content table td,
+.entry-content table td p {
+	font-family: 'D2Coding', monospace;
 }
