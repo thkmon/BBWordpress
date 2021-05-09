@@ -48,7 +48,34 @@
 			</a>
 		</div><!-- .post-thumbnail -->
 	<?php endif; ?>
-
+	
+	<?php // bb_ 쿠팡광고(1) ?>
+	<?php if ( !is_home() ) : ?>
+	<div style="margin-bottom: 40px;">
+		<script src="https://ads-partners.coupang.com/g.js"></script>
+		<script>
+			new PartnersCoupang.G({"id":461029,"template":"carousel","trackingCode":"AF3087228","width":"1000","height":"140"});
+		</script>
+		<style>
+			iframe {
+				margin-bottom: 0px;
+			}
+		</style>
+	</div>
+	<?php endif; ?>
+	
+	<?php // bb_ 홈화면에서는 줄 간격 제거 ?>
+	<?php if ( is_home() ) : ?>
+		<style>
+			article {
+				padding-bottom: 0px !important;
+				margin-bottom: 0px !important;
+			}
+		</style>
+	<?php endif; ?>
+	
+	<?php // bb_ 홈화면에서는 글 내용 안보이게 처리 ?>
+	<?php if ( !is_home() ) : ?>
 	<div class="entry-content">
 		<?php
 		/* translators: %s: Name of current post */
@@ -65,11 +92,28 @@
 		) );
 		?>
 	</div><!-- .entry-content -->
-
+	<?php endif; ?>
+	
 	<?php
 	if ( is_single() ) {
 		twentyseventeen_entry_footer();
 	}
 	?>
+	
+	<?php // bb_ 쿠팡광고(2) ?>
+	<?php if ( !is_home() ) : ?>
+	<div style="margin-top: 40px;">
+		<script src="https://ads-partners.coupang.com/g.js"></script>
+		<script>
+			new PartnersCoupang.G({"id":461029,"template":"carousel","trackingCode":"AF3087228","width":"1000","height":"140"});
+		</script>
+		<style>
+			iframe {
+				margin-bottom: 0px;
+			}
+		</style>
+		<span style="font-family: 돋움; font-size: 12px; color: #555555;">파트너스 활동을 통해 일정액의 수수료를 제공받을 수 있음.</span>
+	</div>
+	<?php endif; ?>
 
 </article><!-- #post-## -->
