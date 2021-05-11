@@ -13,6 +13,22 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+
+	<?php // bb_ 쿠팡광고(1) ?>
+	<?php if ( !is_home() ) : ?>
+	<div style="margin-bottom: 40px;">
+		<script src="https://ads-partners.coupang.com/g.js"></script>
+		<script>
+			new PartnersCoupang.G({"id":479802,"template":"carousel","trackingCode":"AF3087228","width":"1000","height":"140"});
+		</script>
+		<style>
+			iframe {
+				margin-bottom: 0px;
+			}
+		</style>
+	</div>
+	<?php endif; ?>
+	
 	<?php
 	if ( is_sticky() && is_home() ) :
 		echo twentyseventeen_get_svg( array( 'icon' => 'thumb-tack' ) );
@@ -47,21 +63,6 @@
 				<?php the_post_thumbnail( 'twentyseventeen-featured-image' ); ?>
 			</a>
 		</div><!-- .post-thumbnail -->
-	<?php endif; ?>
-	
-	<?php // bb_ 쿠팡광고(1) ?>
-	<?php if ( !is_home() ) : ?>
-	<div style="margin-bottom: 40px;">
-		<script src="https://ads-partners.coupang.com/g.js"></script>
-		<script>
-			new PartnersCoupang.G({"id":461029,"template":"carousel","trackingCode":"AF3087228","width":"1000","height":"140"});
-		</script>
-		<style>
-			iframe {
-				margin-bottom: 0px;
-			}
-		</style>
-	</div>
 	<?php endif; ?>
 	
 	<?php // bb_ 홈화면에서는 줄 간격 제거 ?>
