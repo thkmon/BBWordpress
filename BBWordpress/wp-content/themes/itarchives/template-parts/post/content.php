@@ -101,20 +101,4 @@
 	}
 	?>
 	
-	<?php // bb_ 쿠팡광고(2) ?>
-	<?php if ( !is_home() ) : ?>
-	<div style="margin-top: 40px;">
-		<script src="https://ads-partners.coupang.com/g.js"></script>
-		<script>
-			new PartnersCoupang.G({"id":461029,"template":"carousel","trackingCode":"AF3087228","width":"1000","height":"140"});
-		</script>
-		<style>
-			iframe {
-				margin-bottom: 0px;
-			}
-		</style>
-		<span style="font-family: 돋움; font-size: 12px; color: #555555;">파트너스 활동을 통해 일정액의 수수료를 제공받을 수 있음.</span>
-	</div>
-	<?php endif; ?>
-
 </article><!-- #post-## -->

@@ -19,3 +19,4 @@
 		<?php printf( __( 'Proudly powered by %s', 'twentyseventeen' ), 'WordPress' ); ?>
 	</a>
 </div><!-- .site-info -->
+쿠팡 파트너스 활동을 통해 일정액의 수수료를 제공받을 수 있음

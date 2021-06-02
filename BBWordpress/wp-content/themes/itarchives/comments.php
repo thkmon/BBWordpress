@@ -23,7 +23,8 @@ if ( post_password_required() ) {
 }
 ?>
 
-<div id="comments" class="comments-area">
+<!-- bb_ 댓글영역 숨김 -->
+<div id="comments" class="comments-area" style="display: none;">
 
 	<?php
 	// You can start editing here -- including this comment!
@@ -80,17 +81,3 @@ if ( post_password_required() ) {
 	?>
 
 </div><!-- #comments -->
-
-<!-- 쿠팡광고 -->
-<div>
-	<script src="https://ads-partners.coupang.com/g.js"></script>
-	<script>
-		new PartnersCoupang.G({"id":479806,"template":"carousel","trackingCode":"AF3087228","width":"1000","height":"300"});
-	</script>
-	<script>
-		new PartnersCoupang.G({"id":479805,"template":"carousel","trackingCode":"AF3087228","width":"1000","height":"300"});
-	</script>
-	<script>
-		new PartnersCoupang.G({"id":479807,"template":"carousel","trackingCode":"AF3087228","width":"1000","height":"300"});
-	</script>
-</div>
