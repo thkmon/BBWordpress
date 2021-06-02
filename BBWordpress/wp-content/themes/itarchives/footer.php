@@ -16,7 +16,7 @@
 ?>
 
 <?php // bb_ 쿠팡광고(2) ?>
-<?php if ( !is_home() ) : ?>
+<?php /*if ( !is_home() ) :*/ ?>
 <div style="margin: 0 auto; width: 100%; max-width: 1200px;">
 	<div style="margin-top: 40px;">
 		<script src="https://ads-partners.coupang.com/g.js"></script>
@@ -30,7 +30,7 @@
 		</style>
 	</div>
 </div>
-<?php endif; ?>
+<?php /*endif;*/ ?>
 
 
 <?php
